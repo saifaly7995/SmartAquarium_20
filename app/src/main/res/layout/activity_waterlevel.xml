@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".waterlevel">
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/waveLoading"
+        app:wlv_shapeType="rectangle"
+        app:wlv_round_rectangle="true"
+        app:wlv_triangle_direction="north"
+
+        app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+        app:wlv_titleCenterStrokeWidth="1dp"
+        app:wlv_titleCenterColor="@android:color/white"
+        app:wlv_titleCenterSize="80sp"
+
+        app:wlv_waveAmplitude="70"
+        app:wlv_waveColor="@color/colorWater"
+
+        />
+
+</LinearLayout>

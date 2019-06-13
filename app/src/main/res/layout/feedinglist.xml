@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvtime"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="0.7"
+            android:text="16:00 am"
+            android:layout_marginLeft="15dp"
+            android:textSize="48sp"
+            android:fontFamily="@font/lato"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp" />
+
+        <ImageButton
+            android:id="@+id/btndel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripplebg"
+            android:paddingLeft="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/garbagee"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnsunday"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:text="S"
+            android:layout_margin="3dp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnmonday"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:text="M"
+            android:layout_margin="3dp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+        <Button
+            android:id="@+id/btntuesday"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:text="T"
+            android:layout_margin="3dp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+        <Button
+            android:id="@+id/btnwedday"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:text="w"
+            android:layout_margin="3dp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+        <Button
+            android:id="@+id/btnthursday"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:text="T"
+            android:layout_margin="3dp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+        <Button
+            android:id="@+id/btnfriday"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:text="F"
+            android:layout_margin="3dp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnsatday"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:text="S"
+            android:layout_margin="3dp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="340dp"
+    android:layout_height="1dp"></LinearLayout>
+
+</LinearLayout>
